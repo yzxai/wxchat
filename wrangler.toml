@@ -1,0 +1,21 @@
+name = "wxchat"
+main = "worker/index.js"
+compatibility_date = "2025-06-17"
+
+# 静态资源配置 - 使用正确的格式
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+# D1 数据库绑定
+[[d1_databases]]
+binding = "DB"
+database_name = "wxchat"
+database_id = "294367d4-8cde-48ea-b3f5-b809923a2342"
+
+# R2 存储桶绑定
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "wxchat"
+
+
